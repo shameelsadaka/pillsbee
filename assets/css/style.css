@@ -1,0 +1,164 @@
+
+
+
+/* Colors & Styles */
+.text-primary{ color: #ffcc00!important; } .bg-primary{ background-color: #ffcc00!important; }
+.text-secondary{ color: #f5ad00!important; } .bg-secondary{ background-color: #f5ad00!important; }
+.text-black{ color: #000000!important; } .bg-black{ background-color: #000000!important; }
+.text-semiblack{ color: #333333!important; } .bg-black{ background-color: #333333!important; }
+.text-white{ color:  #FFFFFF!important; } .bg-white{ background-color: #FFFFFF!important; }
+.text-gray{ color: #999999!important; } .bg-gray{ background-color:#999999!important; }
+
+
+.bold{font-weight: bold;}
+
+.text-right{ text-align: right; }
+
+.vertical-center{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/* Components */
+.text-input-container{
+	display: inline-block;
+	background:#FFFFFF;
+	padding: 10px 18px;
+	border:1px solid #888888;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+	.text-input-container input{
+		border:none;
+		outline: none;
+		color: #000000;
+		font-size: 14px;
+	}
+	.text-input-container .icon{
+		text-decoration: none;
+		color: #BBBBBB;
+		font-size: 13px;
+	}
+	.text-input-container .icon:hover{
+		color: #999999;
+	}
+
+.btn-big{
+	height: 44px;
+	padding: 0 24px;	
+	border-radius: 0;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.btn-big:hover{
+	color: #FFFFFF;
+}
+.btn-box{
+	padding: 8px 18px;	
+	border-radius: 0;
+	color: #FFFFFF;
+}
+	.btn-box:hover{
+		color: #FFFFFF;
+	}
+
+.divider{
+	display: block;
+	height: 1px;
+	background-color: #000000;
+	margin: 20px 0;
+	opacity: 0.1;
+}
+.divider.h2{
+	height: 2px;
+}
+
+/* DOM */
+
+body{
+	font-family: 'Raleway';
+}
+
+
+
+/*Header*/
+header.nav{
+	position: absolute;
+	top: 0;left:0;
+	padding: 20px 0;
+	width: 100%;
+}
+	a.nav-links{
+		font-weight: bold;
+		margin: 0 2px;
+		padding: 8px 18px;
+		border-radius: 0;
+		font-size: 14px;
+		text-decoration: none;
+	}
+/* Intro Section */
+section.intro{
+	height: 560px;
+	background-image: url(../img/medicine-pattern.jpg);
+}
+	.intro h1{
+		font-weight: 700;
+		font-size: 48px;
+	}
+	.intro .intro-sub{
+		font-size: 20px;
+		font-weight: normal;
+	}
+	.intro .text-input-container{
+		margin-top: 20px;
+	}	
+		.intro .text-input-container input{
+			width: 350px;
+		}
+	.intro button{
+	}
+.key-features{
+	padding: 80px 0;
+	background-color: #222222;
+}
+	.key-feature-text{
+		display: block;
+		color: #FFFFFF;
+		font-weight: bold;
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.key-feature-desc{
+		display: block;
+		color: #FFFFFF;
+		margin-top: 10px;
+		font-size: 13px;
+		padding: 0 30px;
+	}
+section.steps{
+	background:#F6F6F6 url(../img/town-background.jpg) no-repeat fixed center/cover;
+	padding: 90px 0;
+}
+	section.steps h2.title{
+		font-size: 38px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	section.steps h4.sub-title{
+		font-size: 24px;
+		font-weight: normal;
+	}
+	section.steps .step{
+		width: 100%;
+		height: 400px;
+		display: block;
+		max-width: 900px;
+		margin: 80px auto 20px;
+	}
+		section.steps .step-title{
+			font-size: 36px;
+			font-weight: 300;
+			line-height: 1.3;
+		}
