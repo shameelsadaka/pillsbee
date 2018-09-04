@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pillsbee | Online Medicine Store</title>
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Styling -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/prototype.css">
+</head>
+<body>
+	<header class="nav">
+		<div class="nav-container">
+			<div class="col-sm-4">
+				<b>Logo</b>
+			</div>
+			<div class="col-sm-4 text-center">
+			</div>
+			<div class="col-sm-4 text-right">
+				<a href="#" class="nav-links text-black">Login</a> <a href="#" class="nav-links btn btn-box bg-black">Sign Up</a>
+			</div>
+		</div>
+	</header>
+	<section class="form">
+		<div class="container">
+			<h1 class="intro-head">Upload Success! The Prescription is Uploaded</h1>
+			<p class="intro-sub text-semiblack">Here we had listed what we detected. Verify the list and select quantity before clciking confirm</p>
+			<br/><br/>
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img src="assets/img/prescription-sample.jpg" class="prescription-box" style="max-width: 80%">
+				</div>
+				<div class="col-sm-8">
+					<div class="text-center protohideafter">
+						<i class="fa fa-spinner fa-spin" style="font-size:40px"></i>
+					</div>
+
+					<table class="cartlist protoshowafter">
+						<tr class="head">
+							<td>No.</td><td>Medicine</td><td>Details</td><td>Qty</td><td>Price</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Paracetamol</td>
+							<td>250mg</td>
+							<td><input type="number" class="cartlistqty" value="2" data-price="40"></td>
+							<td><b>₹80</b></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Alprazolam</td>
+							<td>500mg</td>
+							<td><input type="number" class="cartlistqty" value="4" data-price="64"></td>
+							<td><b>₹256</b></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Zidovudine</td>
+							<td>500mg</td>
+							<td><input type="number" class="cartlistqty" value="4" data-price="120"></td>
+							<td><b>₹480</b></td>
+						</tr>
+						<tr class="total">
+							<td colspan="4" style="text-align: right;">Total 3 Items</td>
+							<td class="totalprice" style="color: green">₹816.00</td>
+						</tr>
+					</table>
+					<br/>
+					Prescription issued by : <b>Dr. Malik Hussain </b>
+					<br/>
+					<button class="btn btn-big bg-semiblack text-white right" 
+					onclick="window.location = 'contact.html'">CONFIRM LIST</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		&copy; Pillsbee 2018 - All Rights are reserved
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="assets/js/prototype.js"></script>
+
+</body>
+</html>

@@ -5,12 +5,13 @@
 .text-primary{ color: #ffcc00!important; } .bg-primary{ background-color: #ffcc00!important; }
 .text-secondary{ color: #f5ad00!important; } .bg-secondary{ background-color: #f5ad00!important; }
 .text-black{ color: #000000!important; } .bg-black{ background-color: #000000!important; }
-.text-semiblack{ color: #333333!important; } .bg-black{ background-color: #333333!important; }
+.text-semiblack{ color: #333333!important; } .bg-semiblack{ background-color: #333333!important; }
 .text-white{ color:  #FFFFFF!important; } .bg-white{ background-color: #FFFFFF!important; }
 .text-gray{ color: #999999!important; } .bg-gray{ background-color:#999999!important; }
 
 
 .bold{font-weight: bold;}
+.right{float: right;}
 
 .text-right{ text-align: right; }
 
@@ -168,3 +169,45 @@ footer{
 	color: #FFFFFF;
 	padding: 40px 0;
 }
+
+section.form{
+	padding: 100px 0;
+	background:#F6F6F6 url(../img/town-background.jpg) no-repeat fixed center/cover;
+	min-height: 90vh;
+}
+
+.prescription-box{
+	max-width: 80%;
+	padding: 3px;
+	border: 1px solid #AAAAAA;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+table.cartlist{
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	border: 1px solid #CCCCCC;
+}
+	table.cartlist tr.head td{
+		font-weight: bold;
+		background-color: #FAFAFA;
+		border-bottom: 1px solid #DDDDDD;
+	}
+	table.cartlist td{
+		padding: 10px 20px;
+	}
+	table.cartlist input{
+		width: 50px;
+		padding: 5px;
+		text-align: center;
+		border:1px solid #DDDDDD;
+	}
+	
+	table.cartlist tr.total td{
+		border-top: 1px solid #CCCCCC;
+		background-color: #FAFAFA;
+		padding: 20px 10px;
+		font-weight: bold;
+		font-size: 16px;
+	}
